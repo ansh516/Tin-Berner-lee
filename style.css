@@ -1,25 +1,119 @@
-#welcome{
-text-align:center;
-height:500px;
-width:100%;
-position: relative;
-background:linear-gradient(cyan 0%,green 100%);
-font-family: 'Great Vibes', cursive;
+#welcome {
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(cyan 0%, green 100%);
+    font-family: 'Great Vibes', cursive;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.83;
+    display: table;
+    z-index: 9;
 }
-.profile{
-height:200px;
-width:200px;
+
+.profile {
+    height: 200px;
+    width: 200px;
+    margin-bottom:50px;
+    border-radius: 50%;
 }
-#about{
-font-size:25px;
-font-family:sans-serif; 
-text-align: center;
+
+#about {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 500px;
 }
-.line { width: 70px; height: 6px; color: navy; margin: 2px auto; background-color: #000; }
-h1{
-text-align: center;
+
+.line {
+    width: 70px;
+    height: 6px;
+    color: navy;
+    margin: 2px auto;
+    background-color: #000;
 }
-.link { float: left; display: inline; padding-top: 20px; padding-left: 10px; padding-bottom: 9px; padding-right: 5px; font-family: Impact; font-size: 20px; color: #fff;
-#menu { color: navy; list-style: none; position: fixed; top: 0px; cursor: pointer; right: 10px; z-index: 90; width: 100%; font-family: 'Lobster', cursive; }
-.welcome-inner { display: table-cell; vertical-align: middle; text-align: center; position: relative; }
-#welcome { position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 500px; width: 100%; background: linear-gradient(cyan 0%, green 100%); color: #eeab2f; opacity: 0.83; /* Insert Comment */ display: table; z-index: 9; }
+
+h1 {
+    text-align: center;
+}
+
+.link {
+    float: left;
+    display: inline;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 9px;
+    padding-right: 5px;
+    font-family: Impact;
+    font-size: 20px;
+    color: navy;
+
+    #menu {
+        color: navy;
+        list-style: none;
+        position: fixed;
+        top: 0px;
+        cursor: pointer;
+        right: 10px;
+        z-index: 10;
+        width: 100%;
+        font-family: 'Ismpact', cursive;
+    }
+
+    .welcome-inner {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        position: relative;
+    }
+
+    #welcome {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(cyan 0%, green 100%);
+        color: #eeab2f;
+        opacity: 0.83;
+        /* Insert Comment */
+        display: table;
+        z-index: 9;
+    }
+    #about:hover{
+    color:lightpink;
+    }
+    #work:hover{
+    color:lightpink;
+    }
+    #videos:hover{
+    color:lightpink;
+    }
+    #writing:hover{
+    color:lightpink;
+    }
+    #contact:hover{
+    color:blue;
+    }
+    html{
+    scroll-behavior: smooth;
+    }
+    .link:hover {
+    background-color:navy;
+    }
+    a{
+    color: navy;
+    }
+    p{
+    max-width: 450px;
+    margin:25px auto;
+    font-size:20px;
+    line-height:1.3;
+    }
+    
+        
